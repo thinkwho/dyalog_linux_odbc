@@ -1,0 +1,38 @@
+/*****************************************************************************
+*
+*                             Dyalog Configuration
+*
+* This file contains configuration settings for all editions of Dyalog, from
+* version 18.0 onwards.
+*
+* For settings for specific editions of Dyalog, see the separate
+* edition-specific files, e.g. for Dyalog 19.0 64-bit Unicode, see
+* dyalog.190U64.dcfg.
+* See also the edition-specific files for more information about the structure
+* of this file.
+*
+* Note that as of version 18.0, dyalog.config (if present in this directory) is
+* no longer used. If you used earlier versions of Dyalog and made changes to
+* that file then you will need to make corresponding changes here.
+*
+*****************************************************************************/
+
+{ settings: {
+
+	/* ODBC */
+	ODBCINI: "/etc/odbc.ini",
+
+	/* Whether to start tracing on errors */
+	TRACE_ON_ERROR: 1,
+
+	/* Maximum workspace size */
+	// MAXWS: "256M",
+		
+	/* Whether to automatically format control structures in functions */
+	// AUTOFORMAT: 1,
+		
+	/* Where to display DMX error messages (1=Status Window; 2=Session) */
+	// DMXOUTPUTONERROR: 2,
+
+}}
+
